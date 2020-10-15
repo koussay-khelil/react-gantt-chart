@@ -1,0 +1,109 @@
+{
+  "_from": "frappe-gantt-theop",
+  "_id": "frappe-gantt-theop",
+  "_inBundle": false,
+  "_integrity": "sha512-HxQmXpDXLY8iMzHHVZYWZRdVpRwhsELFAtqSf/ILm5zNmdgJyOsAqMFIBhNKwSeLAomJ3c1YjPY6ghRhHYS20A==",
+  "_location": "/frappe-gantt-react",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "frappe-gantt-theop@^0.2.6",
+    "name": "frappe-gantt-theop",
+    "escapedName": "frappe-gantt-theop",
+    "rawSpec": "^0.2.2",
+    "saveSpec": null,
+    "fetchSpec": "^0.2.2"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/frappe-gantt-react/-/frappe-gantt-react-0.2.2.tgz",
+  "_shasum": "e388981f619c6043c3a74d7dce50b16c86263746",
+  "_spec": "frappe-gantt-theop@^0.2.5",
+  "_where": "C:\\Users\\Koussay\\Desktop\\react-boilerplate",
+  "author": {
+    "name": "Koussay Khelil",
+    "email": "khelil.koussay@gmail.com"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/mohammed-io/frappe-gantt-react/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "theop-gantt": "^0.3.0",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.0"
+  },
+  "deprecated": false,
+  "description": "It's a React Component, a Wrapper for the awesome [Gantt chart library](https://github.com/frappe/gantt) from Frappé",
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.2.0",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@svgr/rollup": "^4.2.0",
+    "@types/jest": "24.0.12",
+    "@types/node": "11.13.9",
+    "@types/react": "16.8.15",
+    "@types/react-dom": "16.8.4",
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
+    "rollup": "^1.11.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-plugin-url": "^2.2.1",
+    "typescript": "3.4.5"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "homepage": "https://github.com/mohammed-io/frappe-gantt-react#readme",
+  "keywords": [
+    "react",
+    "frappe gantt wrapper",
+    "gantt",
+    "svg",
+    "simple gantt",
+    "project timeline",
+    "interactive gantt",
+    "project management"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "frappe-gantt-theop",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohammed-io/frappe-gantt-react.git"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "dist": "npm run tsc ;rollup -c",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "tsc": "tsc -p tsconfig.prod.json"
+  },
+  "types": "./typings/main.d.ts",
+  "version": "0.2.7"
+}
